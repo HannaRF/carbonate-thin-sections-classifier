@@ -1,7 +1,3 @@
-Aqui está um **README completo**, integrado com o conteúdo da Trilha 2, organizado e fluido, seguindo a estrutura que você começou:
-
----
-
 # 🪨 Track 2: Petrographic Thin Sections
 
 ### HACKATHON AI FOR OIL & GAS
