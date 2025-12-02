@@ -1,8 +1,3 @@
-Aqui está o **README no estilo do template da FWI**, mas começando exatamente com o trecho que você enviou e seguindo a mesma estética, narrativa e estrutura do exemplo original.
-Mantive o conteúdo técnico, mas deixei com fluxo, emojis e explicações como no template.
-
----
-
 # 🪨 Track 2: Petrographic Thin Sections
 
 ### HACKATHON AI FOR OIL & GAS
@@ -90,17 +85,6 @@ Below are examples of the type of synthetic carbonate thin-section images used i
 
 # 🔬 Our Approach
 
-We model the task as a supervised image classification problem:
-
-[
-f_\theta(I) \rightarrow y
-]
-
-Where
-
-* ( I ) is a thin-section image
-* ( y ) ∈ {ESF, ETR, RET, LMT}
-
 ### Key components of our pipeline:
 
 ### 🔹 Transfer Learning with ResNeXt-50
@@ -113,10 +97,6 @@ The model leverages pretrained ImageNet weights, allowing it to learn petrograph
 * Class-weighted Cross-Entropy
 
 These techniques significantly improve recall and F1-score for underrepresented lithologies.
-
-### 🔹 Robust Evaluation
-
-We analyze both macro and per-class performance through precision, recall, F1, and confusion matrices.
 
 ---
 
@@ -164,17 +144,7 @@ This strategy enhances generalization to the unlabeled 512×512 test set.
 
 # 🙌 Contributors
 
-Team Rock the Net:
 Matheus do Ó
 João Nogueira
 Juan David Nieto
 Hanna Rodrigues
-
----
-
-Se quiser, eu posso:
-
-✅ gerar uma versão em português
-✅ adicionar fórmulas, figuras e diagramas
-✅ criar badges, estrutura de repo ou scripts
-É só pedir!
