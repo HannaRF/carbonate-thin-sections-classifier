@@ -1,6 +1,6 @@
 # 🪨 Track 2: Petrographic Thin Sections
 
-### HACKATHON — AI FOR OIL & GAS
+### HACKATHON : AI FOR OIL & GAS
 
 #### Team: **Rock the Net**
 
@@ -19,10 +19,10 @@ This challenge focuses on **classifying lithologies in petrographic thin-section
 
 The model receives a thin-section image and predicts one of four carbonate lithology classes:
 
-* **ESF** — Esferulitito (Spherulitic)
-* **ETR** — Estromatólito (Stromatolitic)
-* **RET** — Retrabalhado (Reworked)
-* **LMT** — Laminito (Laminated)
+* **ESF** : Esferulitito (Spherulitic)
+* **ETR** : Estromatólito (Stromatolitic)
+* **RET** : Retrabalhado (Reworked)
+* **LMT** : Laminito (Laminated)
 
 ---
 
@@ -80,6 +80,10 @@ Our approach was built around a **two-stage Transfer Learning pipeline** using *
 ## **Loss Function**
 
 * **Weighted Cross-Entropy**, with class weights designed to mitigate imbalance and prevent bias toward overrepresented lithologies
+
+## **Inference**
+
+For inference, test images are divided into overlapping patches (50% overlap). Each patch is classified independently, and the final prediction is obtained by assigning the most frequent predicted class across all patches.
 
 ---
 
