@@ -139,12 +139,3 @@ This strategy enhances generalization to the unlabeled 512×512 test set.
 * Training images: 1,100
 * Test images: 446
 * Prediction outputs exported to CSV
-
----
-
-# 🙌 Contributors
-
-Matheus do Ó
-João Nogueira
-Juan David Nieto
-Hanna Rodrigues
