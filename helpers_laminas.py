@@ -1,6 +1,4 @@
-
-from collections import defaultdict
-from collections import Counter
+from collections import defaultdict, Counter
 import pandas as pd
 import numpy as np
 import os
@@ -13,10 +11,8 @@ import torch.nn as nn
 import torchvision.transforms as T
 from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset, DataLoader, WeightedRandomSampler
-import random
 
 import torchvision.models as models
-from tqdm import tqdm
 from tqdm.auto import tqdm
 import time
 
