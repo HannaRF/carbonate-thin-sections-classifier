@@ -104,4 +104,4 @@ Prompt used:
 
 > *"carbonate rock, petrographic slide, geological texture, high resolution, realistic, Stromatolite, Spherulite, Laminite, Reworked"*
 
-<img src="images/Rock the Net (5).png" width="400">
+<img src="images/Rock the Net (5).png" width="500">
